@@ -8,11 +8,12 @@ public class Aplicacao {
     FabricaUI fabricaUI;
     Botao botao;
     CheckBox checkBox;
+
     public Aplicacao(FabricaUI fabricaUI) {
         this.fabricaUI = fabricaUI;
     }
 
-    public void criarUI(){
+    public void criarUI() {
         this.botao = fabricaUI.criarBotao();
         this.checkBox = fabricaUI.criarCheckbox();
     }
